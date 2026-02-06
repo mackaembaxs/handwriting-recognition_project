@@ -11,4 +11,47 @@ KNN vs Neural Network for handwriting analysis
 │   ├── 12_nn_confusion_matrix.png
 │   └── ... (18 total)
 └── README.md
+# Handwritten Letter Recognition for Motor Skill Assessment
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Accuracy](https://img.shields.io/badge/Accuracy-96%25-success)
+![Status](https://img.shields.io/badge/Status-Complete-success)
+
+## 🎯 Project Overview
+
+Machine learning models for educational screening to identify students who may need motor skill development support through handwriting analysis.
+
+## 🤖 Models Compared
+
+| Model | Test Accuracy | Precision | Recall | F1-Score |
+|-------|---------------|-----------|--------|----------|
+| KNN (K=5) | 0.93 | 0.93 | 0.93 | 0.93 |
+| **Neural Network** | **0.96** | **0.96** | **0.96** | **0.96** |
+
+## 🏗️ Architecture
+
+**Neural Network Configuration:**
+- **Layers:** (100, 50) hidden layers
+- **Activation:** ReLU
+- **Output:** Softmax (26 classes)
+- **Optimization:** Adam with early stopping
+
+**KNN Configuration:**
+- **K Value:** 5 (optimized via cross-validation)
+- **Distance:** Euclidean
+- **Weights:** Uniform
+
+## 🛠️ Technologies
+
+- **Python 3.12**
+- **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
+- **Techniques:** PCA, Cross-validation, Confusion matrices
+
+## 📈 Key Results
+
+- **Dataset:** 20,000+ handwritten letters (A-Z)
+- **Best Model:** Neural Network (96% accuracy)
+- **PCA:** 95% variance in 150 components
+- **Visualizations:** 18 analytical charts
+
+## 📁 Repository Structure
