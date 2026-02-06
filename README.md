@@ -73,7 +73,7 @@ Machine learning models for educational screening to identify students who may n
 ![Accuracy Comparison](visualizations/14_metric_comparison.png)
 
 ### Confusion Matrix - Neural Network
-![Confusion Matrix](visualizations/12_nn_confusion_matrix.png)
+![Confusion Matrix](https://github.com/mackaembaxs/handwriting-recognition_project/blob/63ef972e8cc045edaeae16700b6270882ba8a3f7/12_nn_confusion_matrix.png)
 
 ## 💡 Key Findings
 
