@@ -13,7 +13,7 @@ KNN vs Neural Network for handwriting analysis
 └── README.md
 # Handwritten Letter Recognition for Motor Skill Assessment
 
-![Python](https://github.com/mackaembaxs/handwriting-recognition_project/blob/fcdccaeaf61dafcb67c41fc0a9d525c5a535cca0/Letters.ipynb)
+![Python Code](https://github.com/mackaembaxs/handwriting-recognition_project/blob/5f6283d97087d15b90d47cdb5c411128c6b28c7b/Letters.ipynb)
 ![Accuracy](https://img.shields.io/badge/Accuracy-96%25-success)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
