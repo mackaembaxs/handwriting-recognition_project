@@ -55,3 +55,36 @@ Machine learning models for educational screening to identify students who may n
 - **Visualizations:** 18 analytical charts
 
 ## 📁 Repository Structure
+ handwriting-recognition/
+├── code/
+│   └── letter_recognition_analysis.py
+├── reports/
+│   └── Handwriting_Recognition_Report.pdf
+├── visualizations/
+│   ├── 01_data_quality_report.png
+│   ├── 09_knn_confusion_matrix.png
+│   ├── 12_nn_confusion_matrix.png
+│   └── ... (18 total)
+└── README.md
+
+## 📊 Sample Results
+
+### Model Comparison
+![Accuracy Comparison](visualizations/14_metric_comparison.png)
+
+### Confusion Matrix - Neural Network
+![Confusion Matrix](visualizations/12_nn_confusion_matrix.png)
+
+## 💡 Key Findings
+
+- Neural Network superior across all metrics
+- (100, 50) architecture optimal
+- Minimal overfitting (train-test gap < 3%)
+- Challenging letters: B/D, M/N, I/J pairs
+
+## 📧 Contact
+
+**Daniel Mackaemba**
+- mackaembaxs@gmail.com
+- [LinkedIn Profile](https://www.linkedin.com/in/daniel-mackaemba-b957732a5)
+- [Portfolio](https://daniel-mackaemba.github.io)
